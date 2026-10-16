@@ -30,6 +30,12 @@ let b = document.getElementById("sn").value;
 let c = Number(a) / Number(b);
 document.getElementById("ans").innerHTML = c;
 }
+  function increment() {
+let a = document.getElementById("fn").value;
+let b = document.getElementById("sn").value;
+let c = Number(a) ++ Number(b);
+document.getElementById("ans").innerHTML = c;
+}
   </script>
 
 </head>
@@ -42,6 +48,7 @@ Second number?<input id="sn"> <br>
 <button onclick="sub()"> - </button>
 <button onclick="multiply()"> * </button>
   <button onclick="division()"> / </button>
+  <button onclick="increment()"> ++ </button>
 </p>
   
   <p>
